@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css2?family=Sigmar+One&display=swap');
+
+body {
+    margin: 0;
+    overflow: hidden;
+    background: rgb(1, 10, 55);
+}
+
+span {
+    width: 100vw;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #eef;
+    z-index: 1;
+    font-family: 'Sigmar One', cursive;
+    font-size: 5.35vmin;
+    /* font-weight: bold; */
+    text-shadow: 0 0 10px red;
+}
+
+canvas {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
